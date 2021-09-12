@@ -1,0 +1,503 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.3f1 (76626098c1c4) revision 7758432'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 18363.1440; Version 1909; 64bit' Language: 'en' Physical Memory: 16295 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Editor\2020.3.3f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/UNITY INTERN ENVUT07/Documents/unitywork/LostCryptTest
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+57105
+Successfully changed project path to: C:/Users/UNITY INTERN ENVUT07/Documents/unitywork/LostCryptTest
+C:/Users/UNITY INTERN ENVUT07/Documents/unitywork/LostCryptTest
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 156.07 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.3f1 (76626098c1c4)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Editor/2020.3.3f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/UNITY INTERN ENVUT07/Documents/unitywork/LostCryptTest/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) UHD Graphics 620 (ID=0x5917)
+    Vendor:   
+    VRAM:     8147 MB
+    Driver:   26.20.100.7986
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Editor/2020.3.3f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Editor/2020.3.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Editor/2020.3.3f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56576
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Editor/2020.3.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003962 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 158.61 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.034 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005627 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 132.93 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.266 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 1.48 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3416 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 149.1 MB.
+System memory in use after: 149.2 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 3863.
+Total: 6.352700 ms (FindLiveObjects: 0.619800 ms CreateObjectMapping: 0.254500 ms MarkObjects: 5.304800 ms  DeleteObjects: 0.171400 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Character/OIP11 Variant.prefab
+  artifactKey: Guid(0ec6dacb6dc31ba408e43223b3a7fa51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/OIP11 Variant.prefab using Guid(0ec6dacb6dc31ba408e43223b3a7fa51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4a9a09a82be793222d34d71c9a63c5d') in 0.617479 seconds
+  Import took 0.634273 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.809046 seconds.
+  path: Assets/Character/2Dwork Variant.prefab
+  artifactKey: Guid(0c71582962cc3cc40b31773fe45ec08a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/2Dwork Variant.prefab using Guid(0c71582962cc3cc40b31773fe45ec08a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Asset '2Dwork Variant': Transition 'Jump -> Run' in state 'Jump' doesn't have an Exit Time or any condition, transition will be ignored
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Editor/Src/Animation/StateMachine.cpp line 1847]
+
+Asset '2Dwork Variant': Transition 'AnyState -> Idle' in state 'AnyState' doesn't have an Exit Time or any condition, transition will be ignored
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Editor/Src/Animation/StateMachine.cpp line 1847]
+
+ -> (artifact id: '622171bdba4be3b350fe3e808ae995c4') in 0.087678 seconds
+  Import took 0.108985 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 542.687725 seconds.
+  path: Assets/Character/dog12.psb
+  artifactKey: Guid(5d6a1a728a9a61f45aac7d39c76e0014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/dog12.psb using Guid(5d6a1a728a9a61f45aac7d39c76e0014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18dc48be85ad9a6275f350dc59782bd5') in 0.240804 seconds
+  Import took 0.278538 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 87.246258 seconds.
+  path: Assets/Character/dog12.psb
+  artifactKey: Guid(5d6a1a728a9a61f45aac7d39c76e0014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/dog12.psb using Guid(5d6a1a728a9a61f45aac7d39c76e0014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73c26accf2911e01854aa70a9ee0b9f9') in 0.143401 seconds
+  Import took 0.159170 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 195.062398 seconds.
+  path: Assets/Environment/Materials/Vegetation/Material_Trees_1_Unlit.mat
+  artifactKey: Guid(b979200950b0912499ebb6ede4f8c807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Materials/Vegetation/Material_Trees_1_Unlit.mat using Guid(b979200950b0912499ebb6ede4f8c807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '112ae06fb3b6a14fa320644a462cf0e8') in 0.136332 seconds
+  Import took 0.158091 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000367 seconds.
+  path: Assets/Environment/Materials/Vegetation/Material_Trees_3_Unlit.mat
+  artifactKey: Guid(30bf2aa7999c21442b885f1ead41aa43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Materials/Vegetation/Material_Trees_3_Unlit.mat using Guid(30bf2aa7999c21442b885f1ead41aa43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3524600d055f564b65b08566c21d8f38') in 0.039257 seconds
+  Import took 0.055785 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000345 seconds.
+  path: Assets/Environment/Materials/Vegetation/Material_Trees_5_Unlit.mat
+  artifactKey: Guid(b32c10b8e3403fd4eabce8e72ca87bd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Materials/Vegetation/Material_Trees_5_Unlit.mat using Guid(b32c10b8e3403fd4eabce8e72ca87bd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31b60b0162fbe07266ffcaf29806c790') in 0.026876 seconds
+  Import took 0.039044 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Environment/Materials/Vegetation/Material_Trees_2_Unlit.mat
+  artifactKey: Guid(8306bb78991f1864d97a4704902b999d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Materials/Vegetation/Material_Trees_2_Unlit.mat using Guid(8306bb78991f1864d97a4704902b999d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '335afe5a61784e60d0cd964f9e19d1ba') in 0.032254 seconds
+  Import took 0.045926 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000369 seconds.
+  path: Assets/Environment/Materials/Vegetation/Material_Trees_4_Unlit.mat
+  artifactKey: Guid(0b666dab1f17bd6419471b8e03dd8579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Materials/Vegetation/Material_Trees_4_Unlit.mat using Guid(0b666dab1f17bd6419471b8e03dd8579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '563431f3b5a93e295d76e2e1d5938202') in 0.028874 seconds
+  Import took 0.039671 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 68.038012 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat
+  artifactKey: Guid(31321ba15b8f8eb4c954353edc038b1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat using Guid(31321ba15b8f8eb4c954353edc038b1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60ebd9a796f15a55fc70c8f8b435b55e') in 0.038013 seconds
+  Import took 0.055712 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 266.566489 seconds.
+  path: Assets/Environment/Materials/Vegetation/Material_Grass_Wind_Lit.mat
+  artifactKey: Guid(396ea620df49e554c8735643aa1d6db5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Materials/Vegetation/Material_Grass_Wind_Lit.mat using Guid(396ea620df49e554c8735643aa1d6db5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b02dfb9a4729ca82a19b23d50e4aa9e') in 0.082207 seconds
+  Import took 0.107649 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000816 seconds.
+  path: Assets/ParticleSystems/Materials/Material_Particles_Wind_Trail_Lit.mat
+  artifactKey: Guid(b2948bc5e229ada429b4332574a65954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParticleSystems/Materials/Material_Particles_Wind_Trail_Lit.mat using Guid(b2948bc5e229ada429b4332574a65954) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader error in 'Shader Graphs/ShaderGraph_Particles_Lit': unrecognized identifier 'UnityTexture2D' at line 236 (on d3d11)
+
+Compiling Vertex program with USE_SHAPE_LIGHT_TYPE_0
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+Disabled keywords: USE_SHAPE_LIGHT_TYPE_1 USE_SHAPE_LIGHT_TYPE_2 USE_SHAPE_LIGHT_TYPE_3 UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader error in 'Shader Graphs/ShaderGraph_Particles_Lit': unrecognized identifier '_Property_7daf1917ea320a8798d0a0da70c1c0e1_Out_0' at line 236 (on d3d11)
+
+Compiling Vertex program with USE_SHAPE_LIGHT_TYPE_0
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+Disabled keywords: USE_SHAPE_LIGHT_TYPE_1 USE_SHAPE_LIGHT_TYPE_2 USE_SHAPE_LIGHT_TYPE_3 UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader error in 'Shader Graphs/ShaderGraph_Particles_Lit': unrecognized identifier 'UnityTexture2D' at line 236 (on d3d11)
+
+Compiling Vertex program with USE_SHAPE_LIGHT_TYPE_0
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+Disabled keywords: USE_SHAPE_LIGHT_TYPE_1 USE_SHAPE_LIGHT_TYPE_2 USE_SHAPE_LIGHT_TYPE_3 UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader error in 'Shader Graphs/ShaderGraph_Particles_Lit': unrecognized identifier '_Property_7daf1917ea320a8798d0a0da70c1c0e1_Out_0' at line 236 (on d3d11)
+
+Compiling Vertex program with USE_SHAPE_LIGHT_TYPE_0
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+Disabled keywords: USE_SHAPE_LIGHT_TYPE_1 USE_SHAPE_LIGHT_TYPE_2 USE_SHAPE_LIGHT_TYPE_3 UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+ -> (artifact id: 'ffc3af3b3f76787fb1e67d1968f286ce') in 0.423827 seconds
+  Import took 0.448053 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000782 seconds.
+  path: Assets/Environment/Materials/Temple/Material_Glyph_Unlit.mat
+  artifactKey: Guid(d99cf99103eeb37478c870ea319cb635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Materials/Temple/Material_Glyph_Unlit.mat using Guid(d99cf99103eeb37478c870ea319cb635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f138828a3eb9c25eafe4c6c8954dcef2') in 0.063980 seconds
+  Import took 0.081894 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/Environment/Materials/Temple/Material_Electricity_Unlit.mat
+  artifactKey: Guid(0d5594488989fa6458c84f9e69a1bdb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Materials/Temple/Material_Electricity_Unlit.mat using Guid(0d5594488989fa6458c84f9e69a1bdb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ed54ba8233947bde9311cf68a8e4e9c') in 0.170806 seconds
+  Import took 0.195320 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000817 seconds.
+  path: Assets/Environment/Materials/Temple/Material_Altar_Stones_Lit.mat
+  artifactKey: Guid(7381a888d15c59144937467acc64e23d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Materials/Temple/Material_Altar_Stones_Lit.mat using Guid(7381a888d15c59144937467acc64e23d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd46f0f2f00cd94d2a3ca0f55a82dc58c') in 0.065064 seconds
+  Import took 0.088001 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Environment/Materials/Sky/Material_Clouds_Unlit.mat
+  artifactKey: Guid(e4a8867df4355ff4abe360691449d912) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Materials/Sky/Material_Clouds_Unlit.mat using Guid(e4a8867df4355ff4abe360691449d912) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80087dfff3242e4a372517588746fb4f') in 0.031701 seconds
+  Import took 0.043127 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Environment/Materials/Sky/Material_Sky_Unlit.mat
+  artifactKey: Guid(5989432579606b040a0493011f63635d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Materials/Sky/Material_Sky_Unlit.mat using Guid(5989432579606b040a0493011f63635d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '766008f95394ae9aa423becf4682c9a2') in 0.029123 seconds
+  Import took 0.040993 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Environment/Materials/Temple/Material_Ruins_Unlit.mat
+  artifactKey: Guid(d7fae10f59938f2439892fd9ffb8bf4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Materials/Temple/Material_Ruins_Unlit.mat using Guid(d7fae10f59938f2439892fd9ffb8bf4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '438ae33dd3845779929eeb80279ad9a6') in 0.029025 seconds
+  Import took 0.041410 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Environment/Materials/Sky/Material_SkyGradient_Unlit.mat
+  artifactKey: Guid(cc3b2bbd4af5de14d9da8392f8fd5a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Materials/Sky/Material_SkyGradient_Unlit.mat using Guid(cc3b2bbd4af5de14d9da8392f8fd5a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a037549a8ffa8e9ea6a908b553ba3142') in 0.061340 seconds
+  Import took 0.078241 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Environment/Materials/Vegetation/Material_Grass_Static_Lit.mat
+  artifactKey: Guid(4c557592f9f538e458164e6635424eda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Materials/Vegetation/Material_Grass_Static_Lit.mat using Guid(4c557592f9f538e458164e6635424eda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f55716f6d26dfe161ea8c8221a1870f') in 0.021727 seconds
+  Import took 0.033206 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/ParticleSystems/Materials/Material_Particles_Embers_Trail_Lit.mat
+  artifactKey: Guid(e35fdf6b76f66f74eb6bd27c9dca5ee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParticleSystems/Materials/Material_Particles_Embers_Trail_Lit.mat using Guid(e35fdf6b76f66f74eb6bd27c9dca5ee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader error in 'Shader Graphs/ShaderGraph_Particles_Unlit': unrecognized identifier 'UnityTexture2D' at line 226 (on d3d11)
+
+Compiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+Disabled keywords: UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader error in 'Shader Graphs/ShaderGraph_Particles_Unlit': unrecognized identifier '_Property_eb24b36505592a8997940161ba507a00_Out_0' at line 226 (on d3d11)
+
+Compiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+Disabled keywords: UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader error in 'Shader Graphs/ShaderGraph_Particles_Unlit': unrecognized identifier 'UnityTexture2D' at line 226 (on d3d11)
+
+Compiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+Disabled keywords: UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader error in 'Shader Graphs/ShaderGraph_Particles_Unlit': unrecognized identifier '_Property_eb24b36505592a8997940161ba507a00_Out_0' at line 226 (on d3d11)
+
+Compiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+Disabled keywords: UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+ -> (artifact id: '04b462fad238d68f91613315b6e9036d') in 0.255025 seconds
+  Import took 0.317893 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001100 seconds.
+  path: Assets/ParticleSystems/Materials/Material_Particles_Sand_Lit.mat
+  artifactKey: Guid(ec5fa74f787240d40a8d4e0fa2eaccac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParticleSystems/Materials/Material_Particles_Sand_Lit.mat using Guid(ec5fa74f787240d40a8d4e0fa2eaccac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '226f4172ef4b284cc813eb3d9fc5cd34') in 0.063666 seconds
+  Import took 0.082571 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/ParticleSystems/Materials/Material_Particles_Fireflies_Lit.mat
+  artifactKey: Guid(fedde789f3982e747a37d3a51c449d8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParticleSystems/Materials/Material_Particles_Fireflies_Lit.mat using Guid(fedde789f3982e747a37d3a51c449d8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9036c5d6774194b328aa4b8b7b4d9032') in 0.133062 seconds
+  Import took 0.145763 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000406 seconds.
+  path: Assets/Environment/Materials/Temple/Material_Pillar_Mat.mat
+  artifactKey: Guid(6500bcc78297a58459d6d493a6dca324) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Materials/Temple/Material_Pillar_Mat.mat using Guid(6500bcc78297a58459d6d493a6dca324) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e3eb96cae41c268448fb9c5fdbb66a6') in 0.030726 seconds
+  Import took 0.052270 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003644 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.313 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.00 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3301 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 147.5 MB.
+System memory in use after: 147.7 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 3963.
+Total: 4.809500 ms (FindLiveObjects: 0.893900 ms CreateObjectMapping: 0.338000 ms MarkObjects: 3.447300 ms  DeleteObjects: 0.128700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 445.466496 seconds.
+  path: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Fonts/Perfect DOS VGA 437.ttf
+  artifactKey: Guid(74a5091d8707f334b9a5c31ef71a64ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Fonts/Perfect DOS VGA 437.ttf using Guid(74a5091d8707f334b9a5c31ef71a64ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d477703dc9869ee8ddb91173dfcf402') in 0.614206 seconds
+  Import took 0.635203 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000465 seconds.
+  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Thin.ttf
+  artifactKey: Guid(19a9abb883540be48b75b951a927ae03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Thin.ttf using Guid(19a9abb883540be48b75b951a927ae03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40ff1994b9c43ff0604c91c3d4092b6f') in 0.135288 seconds
+  Import took 0.148208 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000518 seconds.
+  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-BlackItalic.ttf
+  artifactKey: Guid(f95147a9bab9fe649b8070170fa7ebd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-BlackItalic.ttf using Guid(f95147a9bab9fe649b8070170fa7ebd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a710f8a701d1186c02c6903a174c886') in 0.088174 seconds
+  Import took 0.100391 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-MediumItalic.ttf
+  artifactKey: Guid(d93c1bc57fdf1ac4dad1bf04fac05464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-MediumItalic.ttf using Guid(d93c1bc57fdf1ac4dad1bf04fac05464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '830d3bed189d6d39014354175b5a623f') in 0.103674 seconds
+  Import took 0.115401 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Bold.ttf
+  artifactKey: Guid(3750c318f40cab44a97d3a81beaefeb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Bold.ttf using Guid(3750c318f40cab44a97d3a81beaefeb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37eb52d5ffbdc60b879640b29b35754f') in 0.091467 seconds
+  Import took 0.102030 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000359 seconds.
+  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Italic.ttf
+  artifactKey: Guid(c839255fc8f6b4b4d90bf8c1af9f9bd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Italic.ttf using Guid(c839255fc8f6b4b4d90bf8c1af9f9bd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad4728503cb09634dcc852e5ce8079c4') in 0.101168 seconds
+  Import took 0.113115 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000369 seconds.
+  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-ThinItalic.ttf
+  artifactKey: Guid(b2ea3b3f1765e544b9eb5bd1a93a91ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-ThinItalic.ttf using Guid(b2ea3b3f1765e544b9eb5bd1a93a91ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a83f6089de1e0c4b729f0402bb094623') in 0.073324 seconds
+  Import took 0.085290 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000374 seconds.
+  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Black.ttf
+  artifactKey: Guid(1062c701058745940ae5dca6219c64c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Black.ttf using Guid(1062c701058745940ae5dca6219c64c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65f7bcca6bec9213e4e3cfd6357b85e2') in 0.081085 seconds
+  Import took 0.093512 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000360 seconds.
+  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Regular.ttf
+  artifactKey: Guid(30dc370b164eefc43b95744fc796dad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Regular.ttf using Guid(30dc370b164eefc43b95744fc796dad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76a4bfbadbe8075e87700a72a2e8f841') in 0.142202 seconds
+  Import took 0.152804 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Medium.ttf
+  artifactKey: Guid(a51a3aebb43ac044989270407476b208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Medium.ttf using Guid(a51a3aebb43ac044989270407476b208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b734067fea5e6cc15549ea836dc32b0b') in 0.164009 seconds
+  Import took 0.188349 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000750 seconds.
+  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Light.ttf
+  artifactKey: Guid(2a29e27936eb547458f646f71125b264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Light.ttf using Guid(2a29e27936eb547458f646f71125b264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02e9a78fcf6550f70411cf4618048e23') in 0.111714 seconds
+  Import took 0.136036 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000647 seconds.
+  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-BoldItalic.ttf
+  artifactKey: Guid(dfb97a9307a577a41bcacba34b9a7e32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-BoldItalic.ttf using Guid(dfb97a9307a577a41bcacba34b9a7e32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3fd4dcb6d563c14d2266df13e337667') in 0.079858 seconds
+  Import took 0.093248 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000426 seconds.
+  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-LightItalic.ttf
+  artifactKey: Guid(5e63515167650a541b309ba3bfd4db3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-LightItalic.ttf using Guid(5e63515167650a541b309ba3bfd4db3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a38b1974a971b3e7634fe1e3fe668de') in 0.089272 seconds
+  Import took 0.130473 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004198 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.08 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.585 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.86 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3301 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 147.8 MB.
+System memory in use after: 148.0 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 4007.
+Total: 4.188800 ms (FindLiveObjects: 0.381500 ms CreateObjectMapping: 0.294400 ms MarkObjects: 3.429300 ms  DeleteObjects: 0.082000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 2010.858291 seconds.
+  path: Assets/Scenes/Main.unity
+  artifactKey: Guid(a2b58d8c2e473104380da39b8eb2a7e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main.unity using Guid(a2b58d8c2e473104380da39b8eb2a7e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad4d9ede0d14a8b108e25371e32076e0') in 0.044479 seconds
+  Import took 0.057972 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
